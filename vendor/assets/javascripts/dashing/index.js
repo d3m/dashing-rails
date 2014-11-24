@@ -16,9 +16,9 @@
 //= require jquery.leanModal.min
 //= require jquery.timeago
 //= require moment.min
-//= require rickshaw-1.4.3.min
+//= require d3.min
+//= require rickshaw.min
 //= require batman/batman
 //= require batman/batman.jquery
-//= require d3-3.2.8.min
 //= require batman/es5-shim
 //= require dashing-src
