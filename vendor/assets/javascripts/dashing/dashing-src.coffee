@@ -52,8 +52,7 @@ class Dashing.Widget extends Batman.View
       timestamp = new Date(updatedAt * 1000)
       hours = timestamp.getHours()
       minutes = ("0" + timestamp.getMinutes()).slice(-2)
-      sec = ("0" + timestamp.getSeconds()).slice(-2)
-      "Last updated at #{hours}:#{minutes}:#{sec}"
+      "Last updated at #{hours}:#{minutes}"
 
   @::on 'ready', ->
     Dashing.Widget.fire 'ready'
